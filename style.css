@@ -2,27 +2,42 @@
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
-	font-family: Spartan, sans-serif;
+	font-family: Poppins, sans-serif;
 }
-section.header {
+:root {
+	--spanish-gray: hsl(0, 0%, 60%);
+	--sonic-silver: hsl(0, 0%, 47%);
+	--eerie-black: hsl(0, 0%, 13%);
+	--salmon-pink: hsl(353, 100%, 78%);
+	--sandy-brown: hsl(29, 90%, 65%);
+	--bittersweet: hsl(0, 100%, 70%);
+	--ocean-green: hsl(152, 51%, 52%);
+	--davys-gray: hsl(0, 0%, 33%);
+	--cultured: hsl(0, 0%, 93%);
+	--white: hsl(0, 100%, 100%);
+	--onyx: hsl(0, 0%, 27%);
+}
+.header-top {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	padding: 20px 80px;
-	background: #e3e6f3;
-	box-shadow: rgb(0, 0, 0, 0);
+	padding: 0.5rem 5rem;
 }
-.navbar {
+.top-icon {
 	display: flex;
-	align-items: center;
+	text-align: center;
+	font-size: 1.5rem;
+	list-style: none;
 }
-.navbar li{
-    list-style: none;
-    padding: 0 20px;
+.header-top h1 {
+	font-size: 0.9rem;
+	font-weight: 400;
+	color: var(--sonic-silver);
+	text-transform: uppercase;
 }
-.navbar a{
-    text-decoration: none;
-    font-size: 16px;
-    font-weight: 600;
-    color: #1a1a1a;
+.header-top h1 span {
+	color: var(--davys-gray);
+}
+.header-top .select-bar .language {
+	text-transform: uppercase;
 }
