@@ -41,3 +41,18 @@
 .header-top .select-bar .language {
 	text-transform: uppercase;
 }
+.header-mid {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 2rem 5rem;
+}
+.mid-logo {
+	width: 9%;
+}
+.mid-search input {
+	padding: 0.5rem 25rem;
+	text-align: left;
+}
+
+
