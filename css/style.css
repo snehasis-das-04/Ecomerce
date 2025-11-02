@@ -22,12 +22,20 @@
 	align-items: center;
 	justify-content: space-between;
 	padding: 0.5rem 5rem;
+	border-bottom: 1px solid var(--cultured);
 }
 .top-icon {
 	display: flex;
 	text-align: center;
 	font-size: 1.5rem;
 	list-style: none;
+	gap: 5px;
+}
+.top-icon a {
+	color: var(--spanish-gray);
+}
+.top-icon a :hover {
+	color: var(--salmon-pink);
 }
 .header-top h1 {
 	font-size: 0.9rem;
@@ -45,14 +53,45 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 2rem 5rem;
+	padding: 1rem 5rem;
+	border-bottom: 1px solid var(--cultured);
 }
 .mid-logo {
 	width: 9%;
 }
 .mid-search input {
-	padding: 0.5rem 25rem;
-	text-align: left;
+	padding: 0.5rem 20rem;
+	font-size: 1rem;
+	border-radius: 0.5rem;
+	border: 1px solid var(--cultured);
+}
+.mid-search button {
+	background: transparent;
+	border: none;
+	cursor: pointer;
+}
+.mid-icon {
+	font-size: 2.3rem;
+}
+.mid-icon a {
+	color: black;
+	gap: 100px;
+}
+.header-down ul {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 1rem 22rem;
+}
+.header-down ul {
+	list-style: none;
+	text-transform: uppercase;
+}
+.header-down ul li a {
+	text-decoration: none;
+	color: black;
+	font-size: 1rem;
+	font-weight: 500;
 }
 
-
+  
