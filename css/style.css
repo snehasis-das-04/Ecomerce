@@ -102,7 +102,53 @@ section.slider img {
 	height: 450px;
 	object-fit: cover;
 	display: block;
-	margin: 0 auto;
-	border-radius: 0.5rem;
-}
+	margin: 0.1rem auto;
+	border-radius: 0.7rem;
 
+	display: block;
+}
+section.slider .slide {
+	position: relative;
+	/* display: inline-block; */
+}
+section.slider .container {
+	width: 30%;
+	position: absolute;
+	left: 15%;
+	top: 6rem;
+	/* bottom: 1rem; */
+	/* padding: 0.5rem 1rem; */
+	border-radius: 5px;
+}
+section.slider .slide h1 {
+	color: var(--salmon-pink);
+	font-size: 1.8rem;
+	font-weight: 400;
+	letter-spacing: 0.1rem;
+}
+section.slider .slide h2 {
+	font-size: 3rem;
+	font-weight: 700;
+	text-transform: uppercase;
+	line-height: 1.1;
+}
+section.slider .slide p {
+	font-size: 1.6rem;
+	font-weight: 500;
+	color: var(--sonic-silver);
+	margin-bottom: 1rem;
+}
+section.slider .slide p span {
+	font-size: 2rem;
+	font-weight: 700;
+}
+section.slider .slide button {
+	padding: 0.5rem 1.2rem;
+	border: none;
+	color: var(--white);
+	background: var(--salmon-pink);
+	border-radius: 0.3rem;
+	font-size: 1rem;
+	font-weight: 600;
+	text-transform: uppercase;
+}
