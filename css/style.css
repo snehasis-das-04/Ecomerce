@@ -151,4 +151,50 @@ section.slider .slide button {
 	font-size: 1rem;
 	font-weight: 600;
 	text-transform: uppercase;
+	cursor: pointer;
+}
+section.slider .slide button:hover {
+	background: black;
+}
+section.slider .nav {
+	text-align: center;
+}
+
+section.category {
+	display: flex;
+	justify-content: space-between;
+	/* align-items: center; */
+}
+section.category .category-item .category-text h1 {
+	font-size: 1rem;
+	font-weight: 600;
+	text-transform: uppercase;
+	margin-right: 5rem;
+}
+section.category .category-item .category-text p {
+	font-size: 0.7rem;
+	font-weight: 500;
+	color: var(--spanish-gray);
+}
+section.category .category-item a {
+	text-decoration: none;
+	color: var(--salmon-pink);
+	font-size: 0.9rem;
+	font-weight: 500;
+}
+
+section.category .category-item .category-text {
+	display: flex;
+	margin-bottom: 0.6rem;
+}
+section.category .category-item .category-img {
+	float: left;
+	margin-right: -15rem;
+	margin-top: 0.5rem;
+	
+}
+section.category .category-item .category-img img {
+	width: 30%;
+	border: 1px solid black;
+	padding: 1rem 1rem;
 }
