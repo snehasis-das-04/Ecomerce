@@ -160,41 +160,57 @@ section.slider .nav {
 	text-align: center;
 }
 
-section.category {
+section.all-cards .card {
+	display: flex;
+	align-items: center;
+	background: #fff;
+	border-radius: 10px;
+	padding: 15px 20px;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+	width: 250px;
+	transition: 0.3s ease;
+}
+section.all-cards .card .icon img {
+	width: 45px;
+	height: 45px;
+	object-fit: contain;
+	border: 1px solid var(--cultured);
+	border-radius: 6px;
+	background: #f9f9f9;
+	padding: 5px;
+	margin-right: 15px;
+}
+
+section.all-cards .card .details {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	flex: 1;
+}
+
+section.all-cards .card .title-row {
 	display: flex;
 	justify-content: space-between;
-	/* align-items: center; */
+	align-items: center;
 }
-section.category .category-item .category-text h1 {
-	font-size: 1rem;
+
+section.all-cards .card .title-row h3 {
+	font-size: 15px;
 	font-weight: 600;
-	text-transform: uppercase;
-	margin-right: 5rem;
+	color: #000;
 }
-section.category .category-item .category-text p {
-	font-size: 0.7rem;
-	font-weight: 500;
-	color: var(--spanish-gray);
+
+section.all-cards .card .title-row span {
+	font-size: 13px;
+	color: #555;
 }
-section.category .category-item a {
+
+section.all-cards .card a {
+	font-size: 13px;
+	color: #f27b8f;
 	text-decoration: none;
-	color: var(--salmon-pink);
-	font-size: 0.9rem;
+	margin-top: 4px;
 	font-weight: 500;
 }
 
-section.category .category-item .category-text {
-	display: flex;
-	margin-bottom: 0.6rem;
-}
-section.category .category-item .category-img {
-	float: left;
-	margin-right: -15rem;
-	margin-top: 0.5rem;
-	
-}
-section.category .category-item .category-img img {
-	width: 30%;
-	border: 1px solid black;
-	padding: 1rem 1rem;
-}
+
