@@ -104,7 +104,7 @@ section.slider img {
 	display: block;
 	margin: 0.1rem auto;
 	border-radius: 0.7rem;
-
+	margin-bottom: 2rem;
 	display: block;
 }
 section.slider .slide {
@@ -116,8 +116,6 @@ section.slider .container {
 	position: absolute;
 	left: 15%;
 	top: 6rem;
-	/* bottom: 1rem; */
-	/* padding: 0.5rem 1rem; */
 	border-radius: 5px;
 }
 section.slider .slide h1 {
@@ -158,6 +156,10 @@ section.slider .slide button:hover {
 }
 section.slider .nav {
 	text-align: center;
+}
+section.all-cards {
+	display: flex;
+	justify-content: space-between;
 }
 
 section.all-cards .card {
@@ -212,5 +214,3 @@ section.all-cards .card a {
 	margin-top: 4px;
 	font-weight: 500;
 }
-
-
