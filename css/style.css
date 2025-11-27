@@ -109,7 +109,6 @@ section.slider img {
 }
 section.slider .slide {
 	position: relative;
-	/* display: inline-block; */
 }
 section.slider .container {
 	width: 30%;
@@ -121,7 +120,7 @@ section.slider .container {
 section.slider .slide h1 {
 	color: var(--salmon-pink);
 	font-size: 1.8rem;
-	font-weight: 400;
+	font-weight: 500;
 	letter-spacing: 0.1rem;
 }
 section.slider .slide h2 {
@@ -213,4 +212,10 @@ section.all-cards .card a {
 	text-decoration: none;
 	margin-top: 4px;
 	font-weight: 500;
+}
+
+section.Services {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	justify-content: space-between;
 }
