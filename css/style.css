@@ -156,11 +156,11 @@ section.slider .slide button:hover {
 section.slider .nav {
 	text-align: center;
 }
+
 section.all-cards {
 	display: flex;
 	justify-content: space-between;
 }
-
 section.all-cards .card {
 	display: flex;
 	align-items: center;
@@ -217,5 +217,69 @@ section.all-cards .card a {
 section.Services {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
-	justify-content: space-between;
+	padding: 2rem 6rem;
+}
+
+section.Services .testi-img {
+	display: flex;
+	justify-content: center;
+}
+section.Services .testi-img img {
+	width: 38%;
+	border-radius: 9rem;
+}
+section.Services .testi .testi-text {
+	text-align: center;
+}
+section.Services .discount-text {
+	position: relative;
+	top: -50%;
+	padding: 1rem 9rem;
+	text-align: center;
+}
+section.Services .service-charts {
+	/* width: 320px; */
+	background: #fff;
+	padding: 0rem 1rem;
+	border-radius: 15px;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.06);
+}
+section.Services .icon {
+	font-size: 2rem;
+}
+section.Services .inform {
+	display: flex;
+	align-items: center;
+	margin-bottom: 22px;
+}
+section.Services .testi-all {
+	padding: 3.3rem 5.7rem;
+	border: 1px solid var(--cultured);
+	border-radius: 1rem;
+}
+section.Services .testi h4 {
+	font-size: 1.1rem;
+	font-weight: 600;
+	padding-bottom: 0.5rem;
+	border-bottom: 1px solid var(--cultured);
+	/* margin-bottom: 5rem; */
+}
+section.Services .testi-text h1 {
+	font-size: 1.1rem;
+	font-size: 600;
+	text-transform: uppercase;
+	color: var(--sonic-silver);
+}
+section.Services .testi-text h2 {
+	font-size: 1rem;
+	font-weight: 500;
+	color: var(--onyx);
+}
+section.Services .testi-text img {
+	width: 28px;
+}
+section.Services .testi-text p {
+	font-size: 1rem;
+	font-weight: 400;
+	color: var(--sonic-silver);
 }
