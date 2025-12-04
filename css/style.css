@@ -188,24 +188,20 @@ section.all-cards .card .details {
 	justify-content: center;
 	flex: 1;
 }
-
 section.all-cards .card .title-row {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 }
-
 section.all-cards .card .title-row h3 {
 	font-size: 15px;
 	font-weight: 600;
 	color: #000;
 }
-
 section.all-cards .card .title-row span {
 	font-size: 13px;
 	color: #555;
 }
-
 section.all-cards .card a {
 	font-size: 13px;
 	color: #f27b8f;
@@ -219,50 +215,68 @@ section.Services {
 	grid-template-columns: repeat(3, 1fr);
 	padding: 2rem 6rem;
 }
-
 section.Services .testi-img {
 	display: flex;
 	justify-content: center;
 }
 section.Services .testi-img img {
-	width: 38%;
+	width: 40%;
 	border-radius: 9rem;
+	margin-bottom: 1.5rem;
 }
 section.Services .testi .testi-text {
 	text-align: center;
 }
-section.Services .discount-text {
-	position: relative;
-	top: -50%;
-	padding: 1rem 9rem;
-	text-align: center;
-}
 section.Services .service-charts {
-	/* width: 320px; */
-	background: #fff;
-	padding: 0rem 1rem;
-	border-radius: 15px;
-	box-shadow: 0 0 20px rgba(0, 0, 0, 0.06);
+	padding: 0rem 2.8rem;
 }
+section.Services .service-charts h4 {
+	font-size: 1.2rem;
+	font-weight: 600;
+	padding-bottom: 0.5rem;
+	border-bottom: 1px solid var(--cultured);
+	margin-bottom: 1rem;
+}
+section.Services .service-charts .total {
+	border: 1px solid var(--cultured);
+	border-radius: 1rem;
+	padding: 0.6rem 1.5rem;
+}
+
 section.Services .icon {
 	font-size: 2rem;
+	color: var(--salmon-pink);
 }
 section.Services .inform {
 	display: flex;
-	align-items: center;
 	margin-bottom: 22px;
 }
+section.Services .inform h1 {
+	font-size: 1rem;
+	font-weight: 600;
+	color: var(--sonic-silver);
+	margin-bottom: 0.2rem;
+}
+section.Services .inform p {
+	font-size: 0.8rem;
+	font-weight: 500;
+	color: var(--sonic-silver);
+}
+section.Services .inform .space {
+	margin-left: 0.9rem;
+}
 section.Services .testi-all {
-	padding: 3.3rem 5.7rem;
+	padding: 2rem 3.7rem;
 	border: 1px solid var(--cultured);
 	border-radius: 1rem;
+	margin: 1.6rem 2rem;
 }
 section.Services .testi h4 {
 	font-size: 1.1rem;
 	font-weight: 600;
 	padding-bottom: 0.5rem;
 	border-bottom: 1px solid var(--cultured);
-	/* margin-bottom: 5rem; */
+	padding: 0.4rem 2rem;
 }
 section.Services .testi-text h1 {
 	font-size: 1.1rem;
@@ -272,14 +286,59 @@ section.Services .testi-text h1 {
 }
 section.Services .testi-text h2 {
 	font-size: 1rem;
-	font-weight: 500;
+	font-weight: 400;
 	color: var(--onyx);
+	margin-bottom: 1rem;
 }
 section.Services .testi-text img {
 	width: 28px;
+	margin-bottom: 1rem;
 }
 section.Services .testi-text p {
 	font-size: 1rem;
 	font-weight: 400;
+	color: var(--sonic-silver);
+}
+
+section.Services .discount-text {
+	position: relative;
+	width: fit-content;
+	margin: 0 auto;
+	padding: 3.5rem 1rem;
+	text-align: center;
+	background: rgba(255, 255, 255, 0.7);
+	top: -50%;
+}
+section.Services .discount-text a {
+	text-decoration: none;
+	background: var(--eerie-black);
+	color: var(--white);
+	text-transform: uppercase;
+	padding: 0.4rem 0.3rem;
+	border-radius: 0.3rem;
+	font-size: 1rem;
+	font-weight: 600;
+}
+section.Services .discount img {
+	border-radius: 1rem;
+	width:auto;
+	 height: 70%; 
+	object-fit: cover;
+}
+section.Services .discount-text h1 {
+	font-size: 1.6rem;
+	font-weight: 700;
+	color: var(--onyx);
+}
+section.Services .discount-text h2 {
+	font-size: 1.1rem;
+	font-weight: 500;
+	color: var(--sonic-silver);
+	margin-bottom: 0.4rem;
+}
+section.Services .discount-text h3 {
+	font-size: 1.1rem;
+	font-weight: 700;
+	text-transform: uppercase;
 	color: var(--sonic-silver);
 }
